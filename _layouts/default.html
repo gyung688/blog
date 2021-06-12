@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }} | Tech Note</title>
+    <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__div">
+          <div class="header__title">
+            <a href="{{ "/" | relative_url }}">
+              이혜경 블로그
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+    {{ content }}
+    <footer>
+      이헤경. All rights reserved. Powered by GitHub Pages.
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="body__title">
+    {{ page.categories }}
+</div>
+<div class="body">
+    <div class="body__container">
+        <div class="content">       
+        {{ content }}
+        </div>
+        <div class="sidebar">
+            <div class="sidebar__title">
+                categories
+            </div>
+            <ul class="sidebar__nav"> 
+                {% for item in site.data.navigation %}
+                <li><a href="{{ item.link | relative_url }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+                    {{ item.name }}
+                </a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
