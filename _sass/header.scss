@@ -16,6 +16,7 @@
 .header .header__div{
     width : 920px;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 .header__div .header__title{
@@ -26,4 +27,20 @@
 .header__div .header__nav{
     display: flex;
     align-items: center;
+}
+.header__div .sidebar_upper{
+    // width: 500px;
+    display: flex;
+    // align-items: right;
+    // font-weight: 700;
+    // padding-bottom: 20px;
+}
+.header__div .sidebar_upper .sidebar_upper_nav{
+    display: flex;
+}
+
+.header__div .sidebar_upper .sidebar_upper_nav li{
+    display: flex;
+    padding-right: 30px;
+    font-size: 16px;
 }

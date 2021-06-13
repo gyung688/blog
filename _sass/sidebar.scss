@@ -1,13 +1,15 @@
 .sidebar{
+    background-color:rgb(255, 255, 255);
     width : 170px;
     font-size: 15px;
     padding: 30px;
 }
 .sidebar .sidebar__title{
-    color:green;
+    color:rgb(0, 0, 0);
     font-size: 18px;
     font-weight: 700;
 }
 .sidebar .sidebar__nav li{
     padding-top: 10px;
 }
+

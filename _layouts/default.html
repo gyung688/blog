@@ -5,7 +5,7 @@ layout: default
 <html>
   <head>
     <meta charset="utf-8">
-    <title>{{ page.title }} | Tech Note</title>
+    <title>{{ page.title }} | Yesterday, Yes Today</title>
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
   </head>
   <body>
@@ -14,8 +14,17 @@ layout: default
         <div class="header__div">
           <div class="header__title">
             <a href="{{ "/" | relative_url }}">
-              이혜경 블로그
+              Yesterday, Yes Today
             </a>
+          </div>
+          <div class="sidebar_upper">
+            <ul class="sidebar_upper_nav">
+                {% for item in site.data.navigation %}
+                <li><a href="{{ item.link | relative_url }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+                    {{ item.name }}
+                </a></li>
+                {% endfor %}
+            </ul>
           </div>
         </div>
       </div>
