@@ -10,5 +10,5 @@ categories : TipsForCode
     <div class="postlist__excerpt">{{ post.excerpt }}</div>
   </div>
 {% endfor %}
-    -- 개인 공부를 하고 적는 것이므로 다소 부족할 수 있습니다.
+    
 
