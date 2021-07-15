@@ -1,0 +1,9 @@
+# url: "http://gyung688.github.io"
+# baseurl: "/blog"
+
+# defaults:
+#   - scope:
+#       path: "img"
+#     values:
+#       image: true
+
