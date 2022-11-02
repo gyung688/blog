@@ -1,11 +1,13 @@
+- name : TIL
+  link : /til.html
+- name : Java
+  link : /Java.html
 - name : DB
   link : "/DB.html"
 - name : Spring
   link : /Spring.html
 - name : jekyll
   link : /jekyll.html
-- name : Java
-  link : /Java.html
 - name : TipsForCode
   link : /TipsForCode.html
 - name : JavaScript

@@ -9,11 +9,13 @@ body .body__title{
     border-style: solid;
     border-bottom-width: 1px;
     border-color: rgb(151, 149, 149);
-    color:rgb(129, 129, 129);
+    color:rgb(255, 255, 255);
     font-size: 70px;
     text-align: center;
     padding: 85px 0px 85px 0px;
-
+    background-image: url('/assets/img/sidebar-bg.jpg');
+    background-size: cover;
+    background-position: center;
 }
 body .body__banner{
     margin-top: 85px;
