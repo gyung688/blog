@@ -5,7 +5,7 @@ title: 뉴렉처 Spring 11강 메모.
 excerpt: 콜렉션 생성과 목록 DI
 ---
 
-DI를 위해 ArrayList를 XML 코드로 생성 후 주입 ㅏㅎㄹ 수 있음
+DI를 위해 ArrayList를 XML 코드로 생성 후 주입 할 수 있음
 
 <pre>
 ApplicationContext context = new ClassPathXmlApplicationContext("spring/di/setting.xml");
