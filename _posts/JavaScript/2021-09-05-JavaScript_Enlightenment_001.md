@@ -1,7 +1,7 @@
 ---
 layout : post
 categories : JavaScript
-title: "[자깨]자바스크립트에서의 객체"
+title: \[자깨]자바스크립트에서의 객체
 excerpt: 코디 린들리의 "자바스크립트를 깨우치다"를 읽고 작성했습니다.
 ---
 
